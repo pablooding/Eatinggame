@@ -6,11 +6,11 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class GamePlayer : MonoBehaviour
 {
-    public string PlayerName; // 문자 - string
-    public int Score; // 숫자 - int (소수점 x)
+    public string PlayerName;
+    public int Score; 
     public int Hp;
-    public float GameTimer; // 숫자 - flaot (소수점 o)    
-    public bool IsPlaying;// 맞냐 틀리냐 true false
+    public float GameTimer; 
+    public bool IsPlaying;
 
 
     private void Start()
