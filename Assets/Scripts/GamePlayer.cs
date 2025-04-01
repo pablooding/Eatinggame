@@ -6,7 +6,7 @@ using UnityEngine.SocialPlatforms.Impl;
 
 public class GamePlayer : MonoBehaviour
 {
-    public string PlayerName;
+   
     public int Score; 
     public int Hp;
     public float GameTimer; 
@@ -22,7 +22,7 @@ public class GamePlayer : MonoBehaviour
     {
         if (!IsPlaying)
         {
-            Debug.Log("게임이 끝났습니다!");
+            Debug.Log("게임이 끝났습니다");
             return;
         }
         
